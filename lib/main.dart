@@ -38,6 +38,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flight Booking App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'Helvetica Neue',
       ),

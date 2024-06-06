@@ -43,17 +43,17 @@ class _MainTopContentViewState extends ConsumerState<MainTopContentView> {
             height: 35,
           ),
           const SizedBox(height: 25),
-          Row(
+          const Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const TravelCityWidget(
+               TravelCityWidget(
                 alignment: CrossAxisAlignment.start,
                 city: 'Los Angeles',
                 cityAbbr: 'LAS',
                 date: '24 Apr, 16:30',
               ),
               Column(
-                children: const [
+                children:  [
                   Icon(Icons.arrow_forward_ios_rounded,
                       color: Colors.white, size: 24),
                   SizedBox(height: 10),
@@ -63,7 +63,7 @@ class _MainTopContentViewState extends ConsumerState<MainTopContentView> {
                   )
                 ],
               ),
-              const TravelCityWidget(
+               TravelCityWidget(
                 alignment: CrossAxisAlignment.end,
                 city: 'New York City',
                 cityAbbr: 'NYC',

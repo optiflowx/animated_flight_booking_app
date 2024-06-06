@@ -49,10 +49,10 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         //SELECT PAYMENT METHOD AND THE FLIGHT DETAILS
                         const TopViewsWrapper(child: FlightMoreInfo()),
-                        Expanded(
+                        const Expanded(
                           flex: 5,
                           child: Stack(
-                            children: const [
+                            children: [
                               FlightAttendantsContentViewWrapper(
                                 child: FlightAttendantsContentView(),
                               ),

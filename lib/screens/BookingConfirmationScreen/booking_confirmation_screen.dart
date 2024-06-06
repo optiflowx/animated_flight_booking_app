@@ -17,12 +17,12 @@ class BookingConfirmationScreen extends ConsumerWidget {
 
     Future<bool> onWillPop() async {
       return Future.value(false);
-  }
+    }
 
     return WillPopScope(
       onWillPop: onWillPop,
       child: Scaffold(
-         key: const Key('Booking Confirmation Screen'),
+        key: const Key('Booking Confirmation Screen'),
         backgroundColor: Colors.white,
         body: Stack(
           children: [
@@ -52,7 +52,7 @@ class BookingConfirmationScreen extends ConsumerWidget {
                   child: Container(
                     color: Colors.white.withAlpha(35),
                     child:
-                        Column(mainAxisSize: MainAxisSize.min, children: const [
+                        const Column(mainAxisSize: MainAxisSize.min, children: [
                       FlightHeaderContentView(),
                       FlightHeaderTravelView(),
                     ]),
@@ -61,14 +61,14 @@ class BookingConfirmationScreen extends ConsumerWidget {
               ),
             ),
 
-            Positioned(
+            const Positioned(
               bottom: 25,
               left: 0,
               right: 0,
               child: Center(
                   child: Column(
                 mainAxisSize: MainAxisSize.min,
-                children: const [
+                children:  [
                   Text(
                     'Total Price:',
                     style: TextStyle(color: Colors.grey, fontSize: 14),

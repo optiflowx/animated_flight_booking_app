@@ -25,9 +25,9 @@ class _FlightAttendantsContentViewState
               children: [
                 Container(
                   padding: const EdgeInsets.all(15),
-                  child: Row(
+                  child: const Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
+                    children: [
                       Text(
                         'Total duration: ',
                         style: TextStyle(

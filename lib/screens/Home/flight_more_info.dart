@@ -45,16 +45,16 @@ class FlightMoreInfo extends StatelessWidget {
   }
 
   Widget MoreInfoRow() {
-    return Row(
+    return const Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: const [
+      children: [
         FlightInfoTile(
           title: 'Flight',
           info: 'AR 580',
         ),
         FlightInfoTile(
           title: 'Class',
-          info: 'Premium\nEconim',
+          info: 'Premium',
         ),
         FlightInfoTile(
           title: 'Aircraft',

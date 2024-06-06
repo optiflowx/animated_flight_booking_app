@@ -43,12 +43,12 @@ class FlightAttendantsView extends StatelessWidget {
     return Container(
       color: Colors.grey.shade300,
       padding: const EdgeInsets.all(20),
-      child: Row(
+      child:const  Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
+            children:  [
               Text(
                 'Total you will pay',
                 style: TextStyle(
@@ -65,7 +65,7 @@ class FlightAttendantsView extends StatelessWidget {
           Center(
             child: Row(
               mainAxisSize: MainAxisSize.min,
-              children: const [
+              children: [
                 Text('Split payment',
                     style: TextStyle(fontWeight: FontWeight.w600)),
                 SizedBox(width: 5),

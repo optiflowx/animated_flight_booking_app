@@ -16,17 +16,17 @@ class FlightHeaderTravelView extends StatelessWidget {
       ),
       child: Column(
         children: [
-          Row(
+          const Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const TravelCityWidget(
+               TravelCityWidget(
                 alignment: CrossAxisAlignment.start,
                 city: 'Los Angeles',
                 cityAbbr: 'LAS',
                 date: '24 Apr, 16:30',
               ),
               Column(
-                children: const [
+                children:  [
                   Icon(Icons.arrow_forward_ios_rounded,
                       color: Colors.white, size: 24),
                   SizedBox(height: 10),
@@ -36,7 +36,7 @@ class FlightHeaderTravelView extends StatelessWidget {
                   )
                 ],
               ),
-              const TravelCityWidget(
+               TravelCityWidget(
                 alignment: CrossAxisAlignment.end,
                 city: 'New York City',
                 cityAbbr: 'NYC',
